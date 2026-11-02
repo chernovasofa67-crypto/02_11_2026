@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(02_11_2026 main.cpp
         Vehicle.cpp
-        Vehicle.h)
+        Vehicle.h
+        Car.cpp
+        Car.h)
