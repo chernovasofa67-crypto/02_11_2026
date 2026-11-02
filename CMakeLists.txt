@@ -9,4 +9,6 @@ add_executable(02_11_2026 main.cpp
         Car.cpp
         Car.h
         Bicycle.cpp
-        Bicycle.h)
+        Bicycle.h
+        Lorry.cpp
+        Lorry.h)
