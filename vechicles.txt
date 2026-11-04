@@ -1,0 +1,3 @@
+Car 15000.0 220 2018 Red 5
+Bicycle 800.0 45 2021 Black Mountain
+Lorry 45000.0 110 2015 White 12.5

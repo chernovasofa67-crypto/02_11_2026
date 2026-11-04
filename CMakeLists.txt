@@ -11,4 +11,6 @@ add_executable(02_11_2026 main.cpp
         Bicycle.cpp
         Bicycle.h
         Lorry.cpp
-        Lorry.h)
+        Lorry.h
+        Garage.cpp
+        Garage.h)
