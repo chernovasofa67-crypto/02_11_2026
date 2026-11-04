@@ -5,7 +5,7 @@
 #ifndef INC_02_11_2026_VEHICLE_H
 #define INC_02_11_2026_VEHICLE_H
 
-
+#pragma once
 #include <string>
 #include <iostream>
 
@@ -18,8 +18,7 @@ protected:
 
 public:
     Vehicle(double price, int maxSpeed, int year, const std::string& color);
-    virtual ~Vehicle() = default;
-
+    virtual ~Vehicle() = default; // Віртуальний деструктор на своєму місці!
 
     double price() const { return m_price; }
     void setPrice(double price) { m_price = price; }
